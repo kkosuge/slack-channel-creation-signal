@@ -7,7 +7,7 @@ import ChannelCreatedWorkflow from "./workflows/channel_created.ts";
  * https://api.slack.com/automation/manifest
  */
 export default Manifest({
-  name: "Slack Channel Creation Signal",
+  name: "Channel Creation Signal",
   description: "Slackのチャンネル作成イベントを通知する君",
   longDescription:
     `このBotは、Slackのチャンネル作成イベントを通知するための便利なツールです。新しいチャンネルが作成されると、その情報をリアルタイムでお知らせします。これにより、あなたが興味を持つかもしれないパブリックチャンネルに気づくことができ、スムーズにコミュニケーションを取り入れることができます。
