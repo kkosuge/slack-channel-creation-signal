@@ -1,6 +1,5 @@
 import { Manifest } from "deno-slack-sdk/mod.ts";
 import ChannelCreatedWorkflow from "./workflows/channel_created.ts";
-import EmojiChangedWorkflow from "./workflows/emoji_changed.ts";
 
 /**
  * The app manifest contains the app's configuration. This
